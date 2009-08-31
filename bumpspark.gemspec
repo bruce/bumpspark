@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bumpspark}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Bruce Williams"]
@@ -22,7 +22,9 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.markdown",
      "Rakefile",
+     "TODO.markdown",
      "VERSION",
+     "bumpspark.gemspec",
      "lib/bumpspark.rb",
      "lib/bumpspark/formats/png.rb",
      "lib/bumpspark/graph.rb",
