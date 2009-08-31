@@ -1,0 +1,1 @@
+ApplicationHelper.send(:include, BumpsparkHelper)

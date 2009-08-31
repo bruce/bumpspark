@@ -10,7 +10,11 @@ begin
     gem.email = "bruce@codefluency.com"
     gem.homepage = "http://github.com/bruce/bumpspark"
     gem.authors = ["Bruce Williams"]
+    # TESTING ONLY
     gem.add_development_dependency "thoughtbot-shoulda"
+    gem.add_development_dependency "activesupport"
+    gem.add_development_dependency "actionpack"
+    gem.add_development_dependency "rmagick"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
 rescue LoadError
