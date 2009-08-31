@@ -7,11 +7,12 @@ inclusion in Rails projects (and standalone Ruby code).
 This version of the library generates a transparent PNG.
 
 Many thanks to the various collaborators:
+
 * _why (concept, BMP implementation)
 * jzp (png)
 * MenTaLguY (transparency)
 
-== Note on Patches/Pull Requests
+## Note on Patches/Pull Requests
  
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -22,7 +23,7 @@ Many thanks to the various collaborators:
    bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2009 Bruce Williams, et al. See LICENSE for details.
 
