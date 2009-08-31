@@ -20,7 +20,7 @@ Many thanks to the various collaborators:
 2. Use `bumpspark_tag` from your views or helpers, passing it the data points
    you'd like graphed.
 
-    <%= bumpspark_tag [12, 34, 12, 42, 12, 23] >
+    <%= bumpspark_tag [12, 34, 12, 42, 12, 23] %>
     
 ## From Ruby
 
