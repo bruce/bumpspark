@@ -19,16 +19,19 @@ Thanks to the various collaborators on _why's original post:
 
 ## Installation
 
+Stable releases from RubyForge:
+
+    sudo gem install bumpspark
+    
+Development releases from GitHub:
+
     sudo gem install bruce-bumpspark --source http://gems.github.com
 
 ## Usage
 
 ### From Rails
 
-1. Include the gem as a dependency in `config/environment.rb`
-       
-        config.gem 'bruce-bumpspark', :lib => 'bumpspark', :source => 'http://gems.github.com'
-       
+1. Include the gem as a gem dependency in `config/environment.rb`       
 2. Use `bumpspark_tag` from your views or helpers, passing it the data points
    you'd like graphed.
 
