@@ -1,12 +1,17 @@
 # Bumpspark
 
-A modified copy of _why's `bumpspark' code, originally discussed and
-collaborated on at [RedHanded] [1], built out a gem suitable for
-inclusion in Rails projects (and standalone Ruby code).
-  
-This version of the library generates a transparent PNG.
+Generate "bumpspark"-style sparklines from Ruby & Rails.
 
-Many thanks to the various collaborators:
+Note: This library is based on _why's `bumpspark' code, originally discussed and
+collaborated on at [RedHanded] [1].  It has been refactored and built out as
+a gem suitable for inclusion in Rails projects (and standalone Ruby code).
+
+Bumpsparks are sparklines which show discrete data points and highlight 
+extremes.  If you like Tufte and _why, you'll probably like these.
+
+## Credits
+
+Thanks to the various collaborators on _why's original post:
 
 * _why (concept, BMP implementation)
 * jzp (png)

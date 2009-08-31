@@ -3,6 +3,7 @@
 ## Useful
 
 * Configuration of colors
+* Support specific, value-based color thresholds
 
 ## Pedantic
 
