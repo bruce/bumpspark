@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "bumpspark"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Generates "bumpspark"-style sparklines for Ruby & Rails}
+    gem.description = %Q{Generates transparent PNG "bumpspark"-style sparklines. Use from Ruby directly or as a Rails helper generating an image tag w/ built-in data, as conceived by whytheluckystiff.}
     gem.email = "bruce@codefluency.com"
     gem.homepage = "http://github.com/bruce/bumpspark"
     gem.authors = ["Bruce Williams"]
