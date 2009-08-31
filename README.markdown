@@ -12,11 +12,19 @@ Many thanks to the various collaborators:
 * jzp (png)
 * MenTaLguY (transparency)
 
+## Installation
+
+    sudo gem install bruce-bumpspark --source http://gems.github.com
+
 ## Usage
 
 ### From Rails
 
-1. Include the gem as a dependency.
+1. Include the gem as a dependency in `config/environment.rb`
+       
+    config.gem 'bruce-bumpspark', :lib => 'bumpspark',
+                                  :source => 'http://gems.github.com'
+       
 2. Use `bumpspark_tag` from your views or helpers, passing it the data points
    you'd like graphed.
 
