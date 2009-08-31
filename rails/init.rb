@@ -1,1 +1,1 @@
-ApplicationHelper.send(:include, BumpsparkHelper)
+ActionView::Base.send(:include, BumpsparkHelper)
