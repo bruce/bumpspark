@@ -20,7 +20,7 @@ module Bumpspark
       private
   
       def rows
-        normalized_numbers.inject([]) { |ary, r|
+        scaled_numbers.inject([]) { |ary, r|
           ary << [BLACK] * 15 << [BLACK] * 15
           ary.last[r / 9,4] = [(r > 50 and RED or GREY)] * 4
           ary
@@ -44,18 +44,7 @@ module Bumpspark
         to_check = type + data
         [data.length].pack("N") + to_check + [Zlib.crc32(to_check)].pack("N")
       end
-
-      def normalized_numbers
-        nums = numbers.empty? ? [0] : numbers
-        min, max = nums.min, nums.max
-        width = max - min
-        return [1] * nums.size if width == 0
-        width += (300 * 1000)
-        nums.map do |result|
-          ((result - min) * 100 / width.to_f).to_i
-        end
-      end
-    
+      
     end
     
   end

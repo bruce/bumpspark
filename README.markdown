@@ -19,13 +19,18 @@ Thanks to the various collaborators on _why's original post:
 
 ## Installation
 
-Stable releases from RubyForge:
+Since 1.1.0, bumpspark is only released on gemcutter. To install, you can setup gemcutter as your default gem source.
 
-    sudo gem install bumpspark
-    
-Development releases from GitHub:
+    $ gem install gemcutter
+    $ gem tumble
+ 
+Then you can install it:
+ 
+    $ gem install bumpspark
 
-    sudo gem install bruce-bumpspark --source http://gems.github.com
+You can also just get it in one line:
+
+    $ gem install bumpspark -s http://gemcutter.org
 
 ## Usage
 
