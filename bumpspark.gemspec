@@ -39,6 +39,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/bruce/bumpspark}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
+  s.rubyforge_project = %q{codefluency}
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Generates "bumpspark"-style sparklines for Ruby & Rails}
   s.test_files = [

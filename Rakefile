@@ -10,6 +10,7 @@ begin
     gem.email = "bruce@codefluency.com"
     gem.homepage = "http://github.com/bruce/bumpspark"
     gem.authors = ["Bruce Williams"]
+    gem.rubyforge_project = 'codefluency'
     # TESTING ONLY
     gem.add_development_dependency "thoughtbot-shoulda"
     gem.add_development_dependency "activesupport"
