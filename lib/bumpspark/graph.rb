@@ -9,7 +9,7 @@ module Bumpspark
     attr_reader :numbers, :scale
     def initialize(numbers, scale = 1)
       @numbers = numbers
-      @scale = 1
+      @scale = scale
     end
   
   end
