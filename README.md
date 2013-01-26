@@ -61,6 +61,17 @@ File.open('bumpspark.png', 'wb') do |file|
 end
 ```
 
+### From the commandline
+
+Generate a bumpspark directly from the commandline.
+
+```
+% cat temperature.txt
+23 25 33 22 25 33 22
+
+% cat temperature.txt | bumpspark > temperature.png
+```
+
 ### Note on Patches/Pull Requests
  
 Please check the TODO file for information on things that need doing. 

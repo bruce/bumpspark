@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.expand_path('../../lib', __FILE__))
+require 'bumpspark'
+
+data = ARGF.read.strip.split(/\D+/).map(&:to_i)
+print Bumpspark::Graph.new(data).to_png
