@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["brwcodes@gmail.com"]
   gem.description = %q{Generates transparent PNG and Data URI bumpspark-style sparklines. Use from Ruby directly or as a Rails helper.}
   gem.summary       = %q{Generates bumpspark-style sparklines for Ruby & Rails}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/bruce/bumpspark"
 
   gem.files         = `git ls-files`.split($/)
   gem.bindir        = 'exe'
