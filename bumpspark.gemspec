@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bumpspark'
+require 'bumpspark/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "bumpspark"
@@ -19,6 +19,8 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'rspec-rails'
   gem.add_development_dependency 'chunky_png'
   gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rails', '3.2.11'
 end

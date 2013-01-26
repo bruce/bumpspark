@@ -1,4 +1,7 @@
-require 'bumpspark'
+ENV["RAILS_ENV"] ||= 'test'
+require_relative 'dummy/config/environment'
+require 'rspec/rails'
+require 'rspec/autorun'
 
 Dir.glob('spec/support/**/*.rb') do |filename|
   require File.expand_path(filename)

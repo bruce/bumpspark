@@ -8,5 +8,3 @@ module Bumpspark
   end
 
 end
-
-puts "LOADED"

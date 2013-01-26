@@ -1,3 +1,3 @@
 module Bumpspark
-  VERSION = "0.0.1"
+  VERSION = "2.0.0"
 end
