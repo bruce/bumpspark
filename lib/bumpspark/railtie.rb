@@ -1,13 +1,12 @@
-if defined?(Rails)
+module Bumpspark
 
-  module Bumpspark
-
-    class Railtie < Rails::Railtie
-      initializer "bumpspark.helper" do |app|
-        ActionView::Base.send(:include, Bumpspark::Helper)
-      end
+  class Railtie < Rails::Railtie
+    initializer "bumpspark.helper" do |app|
+      require "bumpspark/helper"
+      ActionView::Base.send(:include, Bumpspark::Helper)
     end
-
   end
 
 end
+
+puts "LOADED"
