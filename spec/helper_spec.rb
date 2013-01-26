@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-require 'bumpspark_helper'
+require 'bumpspark/helper'
 
-describe BumpsparkHelper do
+describe Bumpspark::Helper do
 
   let(:object) { Object.new }
-  before { object.extend(BumpsparkHelper) }
+  before { object.extend(Bumpspark::Helper) }
 
   context 'generating an image' do
     
