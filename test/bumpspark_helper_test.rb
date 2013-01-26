@@ -1,6 +1,6 @@
 require 'test_helper'
 
-require 'activesupport'
+require 'active_support'
 require 'action_view'
 require 'action_controller'
 
