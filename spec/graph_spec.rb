@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-require 'rmagick'
-
 describe Bumpspark::Graph do
 
   subject do
