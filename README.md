@@ -1,6 +1,8 @@
 Bumpspark
 =========
 
+[![Build Status](https://travis-ci.org/bruce/bumpspark.png)](https://travis-ci.org/bruce/bumpspark)
+
 Generate "bumpspark"-style sparklines from Ruby & Rails. Bumpsparks
 are sparklines which show discrete data points and highlight extremes.
 
